@@ -7,5 +7,4 @@
   "bracketSameLine": true,
   "singleQuote": false,
   "arrowParens": "avoid",
-  "printWidth": 120
 }

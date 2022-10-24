@@ -1,4 +1,13 @@
-import { Body, Controller, Delete, Get, HttpCode, Param, Patch, Post } from "@nestjs/common"
+import {
+	Body,
+	Controller,
+	Delete,
+	Get,
+	HttpCode,
+	Param,
+	Patch,
+	Post
+} from "@nestjs/common"
 import { FindPageDto } from "./dto/find-page.dto"
 import { PageModel } from "./page.model"
 
