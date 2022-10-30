@@ -59,6 +59,6 @@ export class PageModel extends TimeStamps {
 	@Prop()
 	tagsTitle: string
 
-	@Prop()
+	@Prop({ type: () => [String] })
 	tags: string[]
 }
